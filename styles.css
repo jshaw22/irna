@@ -1,6 +1,7 @@
 .container {
     margin-left: 15px;
     margin-top: 15px;
+    display: none;
 }
 
 .normal {
@@ -9,11 +10,15 @@
     font-weight: 300;
 }
 
-.name {
+.rejectionText {
+    font-family: Lato;
+}
+
+#name {
     font-weight: bold;
 }
 
-.buttons {
+#buttons {
     margin-top: 50px;
 }
 

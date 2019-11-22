@@ -11,15 +11,17 @@
 </head>
 
 <body>
-  <div class="container">
-    <p class="normal"><span class="name">Anri, </span>will you officially be the cat lady to my cat man?</p>
+  <button class="btn btn-info" id="goButton" onClick="goClicked()">Lets go (click me)</button>
+  <div class="container" id="mainContent">
+    <p class="normal"><span id="name"></span><span id="restOfWords"></span></p>
     <div id="imageOfUs"></div>
-    <div class="buttons">
-        <button type="button" class="btn btn-success btn-lg" onClick="yesClicked()">Yes!</button>
-        <button type="button" class="btn btn-danger btn-lg">Nope</button>
+    <div id="buttons">
+        <button type="button" class="btn btn-success btn-lg" onClick="yesClicked(300, 300, null, null, 1);">Yes!</button>
+        <button type="button" class="btn btn-danger btn-lg" onClick="noClicked()">Nope</button>
     </div>
 </div>
 
   <script src="scripts.js"></script>
 </body>
 </html>
+
