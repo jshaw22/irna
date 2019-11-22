@@ -15,9 +15,7 @@ function sleep(ms) {
 async function goClicked() {
     var goButton = document.getElementById("goButton");
     goButton.style.display = "none";
-    //turn off yes/no buttons then turn them on once the text finishes rendering
     var yesNoButtons = document.getElementById("buttons");
-    yesNoButtons.style.display = "none";
     var mainContent = document.getElementById("mainContent");
     mainContent.style.display = "block";
     var restOfWords = "will you officially be the cat lady to my cat man?".split(" ");
